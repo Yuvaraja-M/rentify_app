@@ -1,6 +1,3 @@
-# rentify_app
-Api based creation for managing rents Presidio project
-
 # Rentify App
 
 Rentify is a web application designed to manage rental properties, allowing users to register, log in, and manage property listings. Built with FastAPI, the app provides a robust API with comprehensive documentation available via Swagger. The backend utilizes SQLite for data storage.
@@ -69,3 +66,25 @@ Open your browser and navigate to http://127.0.0.1:8080/docs.
 
 ## Deployment
 The project is deployed at https://rentify-app-lm13.onrender.com/docs
+
+## Usage
+Register a User:
+POST /register
+
+Login:
+POST /token
+
+Create a Property:
+POST /properties
+
+Get Properties:
+GET /properties
+
+Filter Properties:
+GET /properties/filter
+
+Delete a Property:
+DELETE /properties/{property_id}
+
+Update a Property:
+PUT /properties/{property_id}
