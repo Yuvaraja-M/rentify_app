@@ -51,7 +51,7 @@ Entry point for running the application using Uvicorn.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/rentify.git
+   git clone https://github.com/Yuvaraja-M/rentify.git
    cd rentify
 2. create and activate a virtual environment:
    ```
